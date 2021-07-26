@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework 1</title>
+    <style>
+        body{
+            background: url(https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png);text-align: center;
+            background-size: cover;
+        }
+
+        table
+        {
+            color: yellow;
+        }
+        h1{color: green
+        ;text-align: center;}
+        button{
+            color: darkblue ;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tables</h1>
+
+        
+    </header>
+    
+  
+ 
+    <table style="width: 100%;border: 1px solid brown;">
+
+        <thead>
+            <tr>
+    
+                <th style="border: 1px solid brown;">
+                    1
+                </th>
+                
+                <th style="border: 1px solid brown;">
+                   x 
+                </th>
+                <th style="border: 1px solid brown;" >
+                   1
+                </th>
+                <th style="border: 1px solid brown;" >
+                   =
+                </th>
+                <th style="border: 1px solid brown;" >
+                1
+                 </th>
+                 <th style="border: 1px solid brown;">Check</th>
+                 <th style="border: 1px solid brown;">Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid red;">
+                            <br>       10   
+                </td>
+                <td style="border: 1px solid red;">
+                          x
+                </td>
+                <td style="border: 1px solid red;">
+                          5
+                </td>
+                <td style="border: 1px solid red;">
+                          =
+        
+                </td>
+                <td style="border: 1px solid red;">
+                    50
+                <td style="border: 1px solid red;">
+                <br>       <button onclick="test1()" id="user1">check</button></td>
+
+               
+                </td>
+                <td style="border: 1px solid red;" id="result1"></td>
+
+
+
+
+
+
+
+    
+    
+    
+    
+                <tr>
+                    <td style="border: 1px solid red;">
+                             10  
+                    </td>
+                    <td style="border: 1px solid red;">
+                            x
+                    </td>
+                    <td style="border: 1px solid red;">
+                            10
+                    </td>
+                    <td style="border: 1px solid red;">
+                            =
+            
+                    </td>
+    
+                    <td style="border: 1px solid red;">
+                    100
+                    </td>
+                    <td style="border: 1px solid red;">
+                        <br>       <button onclick="test2()" id="user2">check</button></td>
+        
+                       
+                        </td>
+                        <td style="border: 1px solid red;" id="result2"></td>
+
+
+
+
+
+
+
+
+                    <tr>
+                        <td style="border: 1px solid red;">
+                            10    
+                        </td>
+                        <td style="border: 1px solid red;">
+                          x
+                        </td>
+                        <td style="border: 1px solid red;">
+                           6
+                        </td>
+                        <td style="border: 1px solid red;">
+                            =
+                
+                        </td>
+        
+                        <td style="border: 1px solid red;">
+                       60
+                        </td>
+                        <td style="border: 1px solid red;">  <button onclick="test3()" id="user3">check</button></td>
+        
+                       
+                    </td>
+                    <td style="border: 1px solid red;" id="result3"></td>
+
+
+
+
+
+
+                        <tr>
+                            <td style="border: 1px solid red;">
+                            10   
+                            </td>
+                            <td style="border: 1px solid red;">
+                               x
+                            </td>
+                            <td style="border: 1px solid red;">
+                               20
+                            </td>
+                            <td style="border: 1px solid red;">
+                                =
+                    
+                            </td>
+            
+                            <td style="border: 1px solid red;">
+                           200
+                            </td>
+                            <br>      <td style="border: 1px solid red;">    <button onclick="test4()" id="user4">check</button></td>
+        
+                       
+                        </td>
+                        <td style="border: 1px solid red;" id="result4"></td>
+    
+
+
+
+
+
+
+                            <tr>
+                                <td style="border: 1px solid red;">
+                                10   
+                                </td>
+                                <td style="border: 1px solid red;">
+                                   x
+                                </td>
+                                <td style="border: 1px solid red;">
+                                   7
+                                </td>
+                                <td style="border: 1px solid red;">
+                                    =
+                        
+                                </td>
+                
+                                <td style="border: 1px solid red;">
+                                70
+                                </td>
+                                <br>       <td style="border: 1px solid red;">   <button onclick="test5()" id="user5">check</button></td>
+        
+                       
+                            </td>
+                            <td style="border: 1px solid red;" id="result5"></td>
+        
+
+
+
+
+
+
+                                <tr>
+                                    <td style="border: 1px solid red;">
+                                    10 
+                                    </td>
+                                    <td style="border: 1px solid red;">
+                                       x
+                                    </td>
+                                    <td style="border: 1px solid red;">
+                                       30
+                                    </td>
+                                    <td style="border: 1px solid red;">
+                                        =
+                            
+                                    </td>
+                    
+                                    <td style="border: 1px solid red;">
+                                    300
+                                    </td>
+                                    <br>      <td style="border: 1px solid red;">    <button onclick="test6()" id="user6">check</button></td>
+        
+                       
+                                </td>
+                                <td style="border: 1px solid red;" id="result6"></td>
+            
+
+
+
+
+
+
+
+
+                                    <tr>
+                                        <td style="border: 1px solid red;">
+                                        10
+                                        </td>
+                                        <td style="border: 1px solid red;">
+                                           x
+                                        </td>
+                                        <td style="border: 1px solid red;">
+                                         8
+                                        </td>
+                                        <td style="border: 1px solid red;">
+                                            =
+                                
+                                        </td>
+                        
+                                        <td style="border: 1px solid red;">
+                                        80
+                                        </td>
+                                        <br>      <td style="border: 1px solid red;">    <button onclick="test7()" id="user7">check</button></td>
+        
+                       
+                                    </td>
+                                    <td style="border: 1px solid red;" id="result7"></td>
+                
+
+
+
+
+
+
+
+
+
+
+
+                                        <tr>
+                                            <td style="border: 1px solid red;">
+                                            10    
+                                            </td>
+                                            <td style="border: 1px solid red;">
+                                               x
+                                            </td>
+                                            <td style="border: 1px solid red;">
+                                               40
+                                            </td>
+                                            <td style="border: 1px solid red;">
+                                                =
+                                    
+                                            </td>
+                            
+                                            <td style="border: 1px solid red;">
+                                            400
+                                            </td>
+                                            <br>    <td style="border: 1px solid red;">      <button onclick="test8()" id="user8">check</button></td>
+        
+                       
+                                        </td>
+                                        <td style="border: 1px solid red;" id="result8"></td>
+                    
+
+
+
+
+
+                                            
+
+                                                <tr>
+                                                    <td style="border: 1px solid red;">
+                                                    10   
+                                                    </td>
+                                                    <td style="border: 1px solid red;">
+                                                       x
+                                                    </td>
+                                                    <td style="border: 1px solid red;">
+                                                       9
+                                                    </td>
+                                                    <td style="border: 1px solid red;">
+                                                        =
+                                            
+                                                    </td>
+                                    
+                                                    <td style="border: 1px solid red;">
+                                                      90
+                                                    </td>
+                                                    <br>    <td style="border: 1px solid red;">      <button onclick="test9()" id="user9">check</button></td>
+        
+                       
+                                                </td>
+                                                <td style="border: 1px solid red;" id="result9"></td>
+                            
+
+
+
+
+
+
+
+                                                    <tr>
+                                                        <td style="border: 1px solid red;">
+                                                        10 
+                                                        </td>
+                                                        <td style="border: 1px solid red;">
+                                                           x
+                                                        </td>
+                                                        <td style="border: 1px solid red">
+                                                           50
+                                                        </td>
+                                                        <td style="border: 1px solid red;">
+                                                            =
+                                                
+                                                        </td>
+                                        
+                                                        <td style="border: 1px solid red;">
+                                                        500
+                                                        </td>
+
+                                                        <br>    <td style="border: 1px solid red;">      <button onclick="test10()" id="user10">check</button></td>
+        
+                       
+                                                    </td>
+                                                    <td style="border: 1px solid red;" id="result10"></td>
+                                
+     </tr>
+    </tbody>
+    <tfoot>
+    
+    
+    </tfoot>
+    
+    </table>
+    
+</body>
+<script>
+  
+     function test1(){
+        
+        var user = document.getElementById("user1").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result1").innerText = 
+            "The number " + user +" is greater than 100";
+            }
+        else{
+            document.getElementById("result1").innerText = 
+            "The number " + user +" is lesser than 100";
+        }
+    }
+
+
+       
+    function test2(){
+       
+        var user = document.getElementById("user2").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result2").innerText = 
+            "   The number " + user +" is lesser than 100";
+            }
+        else{
+            document.getElementById("result2").innerText = 
+            "The number " + user +" is greater than 100";
+        }
+    }
+
+
+    function test3(){
+        
+        var user = document.getElementById("user3").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result3").innerText = 
+            "The number " + user +" is greater than 100";
+            }
+        else{
+            document.getElementById("result3").innerText = 
+            "The number " + user +" is lesser than 100";
+        }
+    }
+
+
+       
+    function test4(){
+       
+        var user = document.getElementById("user4").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result4").innerText = 
+            "   The number " + user +" is lesser than 100";
+            }
+        else{
+            document.getElementById("result4").innerText = 
+            "The number " + user +" is greater than 100";
+        }
+    }
+
+
+    function test5(){
+        
+        var user = document.getElementById("user5").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result5").innerText = 
+            "The number " + user +" is greater than 100";
+            }
+        else{
+            document.getElementById("result5").innerText = 
+            "The number " + user +" is lesser than 100";
+        }
+    }
+
+
+       
+    function test6(){
+       
+        var user = document.getElementById("user6").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result6").innerText = 
+            "   The number " + user +" is lesser than 100";
+            }
+        else{
+            document.getElementById("result6").innerText = 
+            "The number " + user +" is greater than 100";
+        }
+    }
+
+    function test7(){
+        
+        var user = document.getElementById("user7").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result7").innerText = 
+            "The number " + user +" is greater than 100";
+            }
+        else{
+            document.getElementById("result7").innerText = 
+            "The number " + user +" is lesser than 100";
+        }
+    }
+
+
+       
+    function test8(){
+       
+        var user = document.getElementById("user8").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result8").innerText = 
+            "   The number " + user +" is lesser than 100";
+            }
+        else{
+            document.getElementById("result8").innerText = 
+            "The number " + user +" is greater than 100";
+        }
+    }
+
+    function test9(){
+        
+        var user = document.getElementById("user9").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result9").innerText = 
+            "The number " + user +" is greater than 100";
+            }
+        else{
+            document.getElementById("result9").innerText = 
+            "The number " + user +" is lesser than 100";
+        }
+    }
+
+
+       
+    function test10(){
+       
+        var user = document.getElementById("user10").value;
+    
+
+        if(parseInt(user) < 100){
+            document.getElementById("result10").innerText = 
+            "   The number " + user +" is lesser than 100";
+            }
+        else{
+            document.getElementById("result10").innerText = 
+            "The number " + user +" is greater than 100";
+        }
+    }
+</script>
+</html>
